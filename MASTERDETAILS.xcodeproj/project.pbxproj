@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		755388861F6125A8001061C9 /* GitCommands in Resources */ = {isa = PBXBuildFile; fileRef = 755388851F6125A8001061C9 /* GitCommands */; };
 		755956431F1788E8002C11D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 755956421F1788E8002C11D0 /* main.m */; };
 		755956461F1788E8002C11D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 755956451F1788E8002C11D0 /* AppDelegate.m */; };
 		755956491F1788E8002C11D0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 755956481F1788E8002C11D0 /* MasterViewController.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		755388851F6125A8001061C9 /* GitCommands */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GitCommands; sourceTree = "<group>"; };
 		7559563E1F1788E7002C11D0 /* MASTERDETAILS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MASTERDETAILS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		755956421F1788E8002C11D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		755956441F1788E8002C11D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				755956481F1788E8002C11D0 /* MasterViewController.m */,
 				7559564A1F1788E8002C11D0 /* DetailViewController.h */,
 				7559564B1F1788E8002C11D0 /* DetailViewController.m */,
+				755388851F6125A8001061C9 /* GitCommands */,
 				7559564D1F1788E8002C11D0 /* Main.storyboard */,
 				755956501F1788E9002C11D0 /* Assets.xcassets */,
 				755956521F1788E9002C11D0 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				755956541F1788E9002C11D0 /* LaunchScreen.storyboard in Resources */,
+				755388861F6125A8001061C9 /* GitCommands in Resources */,
 				755956511F1788E9002C11D0 /* Assets.xcassets in Resources */,
 				7559564F1F1788E8002C11D0 /* Main.storyboard in Resources */,
 			);
@@ -318,6 +322,7 @@
 				7559565A1F1788E9002C11D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
